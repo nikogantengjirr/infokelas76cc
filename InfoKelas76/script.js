@@ -2,9 +2,9 @@
    KONFIGURASI — tempel link Google Sheet kamu di sini.
    Lihat panduan setup untuk cara mendapatkan link-link ini.
    ========================================================================= */
-const SCHEDULE_CSV_URL      = https: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=0&single=true&output=csv';
-const ASSIGNMENTS_CSV_URL   = https: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=184873748&single=true&output=csv';
-const ANNOUNCEMENTS_CSV_URL = https: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=750423131&single=true&output=csv';
+const SCHEDULE_CSV_URL      =  'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=0&single=true&output=csv';
+const ASSIGNMENTS_CSV_URL   =  'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=184873748&single=true&output=csv';
+const ANNOUNCEMENTS_CSV_URL =  'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=750423131&single=true&output=csv';
 
 // Link EDIT ini HARUS link Google Sheet biasa (bukan link "publish to web"),
 // contoh: https://docs.google.com/spreadsheets/d/xxxxx/edit
