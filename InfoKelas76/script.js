@@ -2,15 +2,15 @@
    KONFIGURASI — tempel link Google Sheet kamu di sini.
    Lihat panduan setup untuk cara mendapatkan link-link ini.
    ========================================================================= */
-const SCHEDULE_CSV_URL      = https: '//docs.google.com/spreadsheets/d/e/2PACX-1vThdeu-PqOwByyUXnCYm6Gaxff5lXeYhT8DEai2SClIeb12UUfjctDjVHuCeAbr7lppNYjBUwMcMhKB/pub?gid=0&single=true&output=csv';
-const ASSIGNMENTS_CSV_URL   = https: '//docs.google.com/spreadsheets/d/e/2PACX-1vThdeu-PqOwByyUXnCYm6Gaxff5lXeYhT8DEai2SClIeb12UUfjctDjVHuCeAbr7lppNYjBUwMcMhKB/pub?gid=859589409&single=true&output=csv';
-const ANNOUNCEMENTS_CSV_URL = https: '//docs.google.com/spreadsheets/d/e/2PACX-1vThdeu-PqOwByyUXnCYm6Gaxff5lXeYhT8DEai2SClIeb12UUfjctDjVHuCeAbr7lppNYjBUwMcMhKB/pub?gid=1729448970&single=true&output=csv';
+const SCHEDULE_CSV_URL      = https: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=0&single=true&output=csv';
+const ASSIGNMENTS_CSV_URL   = https: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=184873748&single=true&output=csv';
+const ANNOUNCEMENTS_CSV_URL = https: 'https://docs.google.com/spreadsheets/d/e/2PACX-1vTksl_KnPm0OPRMwZx-u9Ingo0biA27S_vCQFhx0Vy0miaOsDZoFeiriO-KaMLUkE6G6vxeZbGSkkmf/pub?gid=750423131&single=true&output=csv';
 
 // Link EDIT ini HARUS link Google Sheet biasa (bukan link "publish to web"),
 // contoh: https://docs.google.com/spreadsheets/d/xxxxx/edit
 // Hanya orang yang kamu kasih akses "Editor" di Share Sheet ini yang bisa mengedit —
 // itu dijaga oleh sistem akun Google, bukan oleh kode di website ini.
-const EDIT_SHEET_URL = '';
+const EDIT_SHEET_URL = 'https://docs.google.com/spreadsheets/d/1M1BSFsyX5jkJdA16dWGBpDJFwUsWJnuI82sVHgnkcIE/edit?usp=sharing';
 /* ========================================================================= */
 
 // Parser CSV sederhana yang menangani kolom berisi koma di dalam tanda kutip.
