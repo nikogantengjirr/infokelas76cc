@@ -10,7 +10,7 @@ const ANNOUNCEMENTS_CSV_URL = https: '//docs.google.com/spreadsheets/d/e/2PACX-1
 // contoh: https://docs.google.com/spreadsheets/d/xxxxx/edit
 // Hanya orang yang kamu kasih akses "Editor" di Share Sheet ini yang bisa mengedit —
 // itu dijaga oleh sistem akun Google, bukan oleh kode di website ini.
-const EDIT_SHEET_URL = 'https://docs.google.com/spreadsheets/d/1M70CPnq60SyijCx8gVa3Yj61h8hTlR7Rni6sEitlsFs/edit?usp=sharing';
+const EDIT_SHEET_URL = '';
 /* ========================================================================= */
 
 // Parser CSV sederhana yang menangani kolom berisi koma di dalam tanda kutip.
